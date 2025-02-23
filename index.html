@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> profile card</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f3f6f6;
+        }
+        .container{
+            display: center;
+            justify-content: center;
+            align-items: center;
+            width: 150%;
+            height: 150%
+        }
+   .profile-card{
+        background: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .profile-header img{
+        width: 80px;
+        height: 80px;
+        border-radius: 40px;
+        border: 3px solid rgba(214, 214, 39, 0.884);
+
+          }
+    .title{
+        font-size: 18px;
+        color: blue;
+        margin-bottom: 10px;
+    }
+    .email{
+        display: inline-block;
+        margin-bottom: 10px;
+        text-decoration: none;
+        color: blueviolet;
+        font-weight: bold;
+    }
+    .social-icons img{
+        height: 40px;
+        width: 40px;
+        margin: 0 5px;
+        border-radius: 25px;
+        border: 3px solid #4a90e9;
+    }
+    </style>
+ 
+</head>
+<body>
+    <div class="container"></div>
+    <div class="profile-card"> 
+        <div class="profile-header">
+            <img src="images/images.jpg" alt="Joeylene Rivera">
+            <div class="profile-body">
+                <h2> Joeylene Rivera</h2>
+                <p class="title">web Developer</p>
+                <p class="description">A kiddo who uses Bootstrap and Laravel in web development. Currently playing around with design via Figma</p>
+                 <a href="mailto:joeylenerivera@gmail.com" class="email"> joeylenerivera@gmail.com</a>
+                 <div class="social-icons">
+                    <a href="#"> <img src="images/download (2).jpg" alt="twitter"></a>
+                    <a href="#"> <img src="images/download.png" alt="instagram"></a>
+                    <a href="#"><img src="images/download (1).jpg" alt="land cruiser"></a>
+                 </div>
+            </div>
+
+        </div>
+        
+    </div>
+</body>
+</html>
